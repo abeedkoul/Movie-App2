@@ -2,14 +2,16 @@ import { initializeApp } from "firebase/app";
 import {getAuth} from 'firebase/auth'
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAbpMcZ5L9Xndyua0LYYOJece0_QSbWDqM",
-  authDomain: "react-symphony-app.firebaseapp.com",
-  projectId: "react-symphony-app",
-  storageBucket: "react-symphony-app.appspot.com",
-  messagingSenderId: "641874735643",
-  appId: "1:641874735643:web:a5fcbc90edbee8d9d93ebe",
-  measurementId: "G-Y13S9Z0B7K"
+  apiKey: "AIzaSyCRjcQo3n8DlGpg9FHYbgxxg-LXhULcHes",
+  authDomain: "moviestreamer-c5798.firebaseapp.com",
+  projectId: "moviestreamer-c5798",
+  storageBucket: "moviestreamer-c5798.appspot.com",
+  messagingSenderId: "888260954580",
+  appId: "1:888260954580:web:d2a9c856fb30f61ea92e41",
+  measurementId: "G-SQVL1Z1CPM"
 };
+
+
 
 
 const app = initializeApp(firebaseConfig);
